@@ -10,13 +10,13 @@ function fetchJSON (array) {
   fetch("https://raw.githubusercontent.com/Zotapianola/SCL010-data-lovers/master/src/data/pokemon/pokeEast.json"
   )
   .then(function(response) {
-    console.log(response.status);
+    // console.log(response.status);
     return response.json();
   })
   .then(function(jsn) {
     pokeEast = jsn;
     createDivs(array);
-    console.log(pokeEast);
+    // console.log(pokeEast);
   })
 }
 
@@ -26,22 +26,30 @@ function createDivs(array)
   for (let i = 0; i < array.length;i++)
   {
     let newDiv = document.createElement("div");
-    let textNode = document.createTextNode(array[i].name);
-    newDiv.appendChild(textNode);
-    newDiv.setAttribute("id", array[i].num);
-    newDiv.setAttribute("class","card");
-    let pokeIMG = document.createElement("img");
-    pokeIMG.setAttribute("src", array[i].img);
-    newDiv.appendChild(pokeIMG);
-    // insertar función que busca y pega nombre en japonés
-    for (j = 0; j < pokeEast.length; j++)
+    let japaneseName;
+    let base;
+    newDiv.setAttribute("class","flip-card");
+    // busca parámetros de nueva base de datos y los junta con la anterior
+    for (let j = 0; j < pokeEast.length; j++)
     {
       if (pokeEast[j].name.english === array[i].name)
       {
-        textNode = document.createTextNode(pokeEast[j].name.japanese);
-        newDiv.appendChild(textNode);
+        japaneseName = pokeEast[j].name.japanese;
+        base = pokeEast[j].base;
       }
     }
+    newDiv.innerHTML =
+    `<div class="flip-card-inner">
+      <div class="flip-card-front">
+      ${array[i].name}
+        <img src=${array[i].img} alt="poke-card">
+      </div>
+      <div class="flip-card-back">
+      ${japaneseName}
+      ${JSON.stringify(base)}
+        <img src=${array[i].img} alt="poke-card">
+      </div>
+    </div>`;
     pokeSection.appendChild(newDiv);
   }
 }
