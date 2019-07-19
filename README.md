@@ -362,4 +362,6 @@ usabilidad en el `README.md`.
 #### *EXTRA (+ hacker edition JSON)*
 Después de la entrega de proyecto, nos dieron tres días para poder mejorar y agregar más elementos a nuestro proyecto. Durante estos días se realizó lo siguiente:
 
-1. Se usó fetch en una data de Pokemon distinta, la cual tiene información adicional que mostramos en un efecto Flipcard de las cartas Pokemon
+1. Se usó fetch en una data de Pokemon distinta, la cual tiene información adicional que mostramos en un efecto Flipcard de las cartas Pokemon. En la parte trasera del Flipcard se muestra el contenido del data adicional, contenido en que sólo destacamos el nombre del pokemon en japonés y parámetros (nivel de ataque, defensa, velocidad, puntos de salud)
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/gyNvFv3/1.png" alt="1" border="0" height=200px></a><a href="https://imgbb.com/"><img src="https://i.ibb.co/wSk06VM/2.png" alt="2" border="0" height=200px></a><a href="https://imgbb.com/"><img src="https://i.ibb.co/1GJ8ndB/3.png" alt="3" border="0" height=200px></a><a href="https://imgbb.com/"><img src="https://i.ibb.co/nP3fcPB/4.png" alt="4" border="0" height=200px></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br />
