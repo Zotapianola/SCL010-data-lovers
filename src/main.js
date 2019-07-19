@@ -39,18 +39,18 @@ function createDivs(array)
       }
     }
     newDiv.innerHTML =
-    `<div class="flip-card-inner">
-      <div class="flip-card-front">
-      ${array[i].name}
-        <img src=${array[i].img} alt="poke-card">
-      </div>
-      <div class="flip-card-back">
-      ${japaneseName}
-      ${JSON.stringify(base)}
-        <img src=${array[i].img} alt="poke-card">
-      </div>
-    </div>`;
-    pokeSection.appendChild(newDiv);
+   `<div class="flip-card-inner">
+     <div class="flip-card-front">
+     <h3>${array[i].name}</h3>
+       <img src=${array[i].img} alt="poke-card">
+     </div>
+     <div class="flip-card-back">
+     <h3>${japaneseName}</h3>
+     <p>${(JSON.stringify(base)).replace(/\"|\{|\}/g, "")}</p>
+       <img src=${array[i].img} alt="poke-card">
+     </div>
+   </div>`;
+   pokeSection.appendChild(newDiv);
   }
 }
 
