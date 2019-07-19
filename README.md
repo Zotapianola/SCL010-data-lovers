@@ -1,7 +1,6 @@
 # *Data Lovers*
 
-=======
-
+  
 
 ## *Pokemon GO*
 
@@ -28,16 +27,14 @@ Aquí presentamos el flujo antes de conocer al usuario y después de conocerlo:
 
 <a  href="https://ibb.co/PCQr02R"><img  src="https://i.ibb.co/7y4SL3H/IMG-20190627-061528805.jpg"  alt="IMG-20190627-061528805"  border="0"></a><br  /><a  target='_blank'  href='https://es.imgbb.com/'></a><br  /><a  href="https://ibb.co/1Xb0ZND"><img  src="https://i.ibb.co/n1RwryH/flujo.jpg"  alt="flujo"  border="0"></a>
 
-
+  
 ### **Definición de usuario (UX)**
 
 En este proyecto, nuestro primer enfoque es conocer al usuario para lograr una experiencia que logre satisfacer sus necesidades principales. Nuestro usuario se definió a través de un formulario de preguntas basadas en obtener información relevante de los usuarios, una jerarquización de los atributos que tienen los pokemones (y que están dentro de la data)
 
 [Link del formulario](https://docs.google.com/spreadsheets/d/1MHKQvyeXej_gJM13vSrrJqYACKMsNMiNy3xyihP8SM0/edit?usp=sharing)
 
-
-=======
-
+ 
 <a  href="https://ibb.co/hFWvpKx"><img  src="https://i.ibb.co/7tWF7Gx/1edad.png"  alt="1edad"  border="0"></a>
 
 <a  href="https://ibb.co/hFWvpKx"><img  src="https://i.ibb.co/7tWF7Gx/1edad.png"  alt="1edad"  border="0"></a>
@@ -58,9 +55,7 @@ En este proyecto, nuestro primer enfoque es conocer al usuario para lograr una e
 
 <a  href="https://ibb.co/xH8bGnc"><img  src="https://i.ibb.co/6BJSbKp/9ordenar.png"  alt="9ordenar"  border="0"></a>
 
-
-=======
-
+  
 
 Según las respuestas (78 en total) de los usuarios que juegan Pokemon GO, se determina lo siguiente:
 
@@ -108,6 +103,7 @@ Los prototipos de Baja Fidelidad implementan aspectos generales del sistema sin 
 
 A continuación se presentan las modificaciones que tuvo nuestro prototipo de baja de fidelidad de acuerdo a observaciones de compañeras que se están formando como UX (reducir pantallas, mejorar simbología, demostrar mejor cómo se puede ver un botón, entre otras cosas)
 
+  
 
 <center><a  href="https://ibb.co/ryrW9CL"><img  src="https://i.ibb.co/XJRwHhd/IMG-20190627-061444091.jpg"  alt="IMG-20190627-061444091"  border="0"></a>
 
@@ -133,7 +129,7 @@ Observaciones:
 Observaciones:
 * El primer acto fue interactuar y tomar el papael donde estaba dibujada la pantalla
 * Después logró interactuar rápidamente con las secciones designadas para botones
-* Se le preguntó si tuvo inconveniente al usar la app, y no tuvo mayor problema.<br>
+* Se le preguntó si tuvo inconveniente al usar la app, y no tuvo mayor problema.<br> 
 [Video / Test usuario nº3](https://www.youtube.com/watch?v=PfNKrHZMpvw)
 Observaciones:
 * No interactúa en primera instancia con los botones, y toma el papel para dejarlo boca abajo
@@ -152,7 +148,7 @@ Observaciones:
 Observaciones:
 * Se le dan las intrucciones correspondientes
 * En la primera pantalla se pregunta por qué hay una "X"
-* Logra interactuar con las pantallas hasta que llega en la situación que debe interactuar con el selector "filtro", pero aprieta el selector "ordenar", aún así se le siguen mostrando las pantallas siguientes (situación que no debió ocurrir).
+* Logra interactuar con las pantallas hasta que llega en la situación que debe interactuar con el selector "filtro", pero aprieta el selector "ordenar", aún así se le siguen mostrando las pantallas siguientes (situación que no debió ocurrir). 
 
 ##### Conclusiones primer grupo de testeo
 De acuerdo a lo experimentado en el testeo, podemos considerar las siguientes mejoras:
@@ -167,82 +163,13 @@ De acuerdo a lo experimentado en el testeo, podemos considerar las siguientes me
 
 Luego de simplificar nuestro protipado de baja fidelidad, debemos formular la guía de tareas que el usuario puede realizar, en base a preguntas que haremos tanto a los usuarios como a las tareas designadas.
 
-
-
-##### Guía de usuario (tareas):
-
-Lo que esperamos de este prototipo es que el usuario pueda completar la tarea de buscar al pokemon Poliwa a través del filtrado por tipo agua (basándonos en la historia de usuario nº1). Para esto se debe definir las siguientes "mini tareas":
-
-
-=======
-
-
-<center><a  href="https://ibb.co/ryrW9CL"><img  src="https://i.ibb.co/XJRwHhd/IMG-20190627-061444091.jpg"  alt="IMG-20190627-061444091"  border="0"></a>
-
-<a  href="https://ibb.co/0JWpVNn"><img  src="https://i.ibb.co/mzYrFsR/IMG-20190627-061503532.jpg"  alt="IMG-20190627-061503532"  border="0"></a>
-
-<a  href="https://ibb.co/KqGZckv"><img  src="https://i.ibb.co/LtPwDW7/IMG-20190627-122257373.jpg"  alt="IMG-20190627-122257373"  border="0"></a>
-
-<a  href="https://ibb.co/Qkrdqj7"><img  src="https://i.ibb.co/KDFwQzc/IMG-20190627-123230141.jpg"  alt="IMG-20190627-123230141"  border="0"></a></center>
-
-#### Testeo de  usuarios en Laboratoria:
-A continuación se presentan el registro grabado de los testeos que se realizaron en Laboratoria, con el objetivo de aprender de cada usuario las observaciones y comentarios sobre el primer desarrollo del prototipo de baja fidelidad.
-<center><a  href="https://ibb.co/4TfmJrt"><img  src="https://i.ibb.co/pzP0nFw/IMG-20190628-WA0007.jpg"  alt="IMG-20190628-WA0007"  border="0"  width="200"></a><a  href="https://ibb.co/Dt36ftP"><img  src="https://i.ibb.co/nbhVMbq/IMG-20190628-WA0012.jpg"  alt="IMG-20190628-WA0012"  border="0"  width="200"></a><a  href="https://ibb.co/y627NBY"><img  src="https://i.ibb.co/Pck0rz9/IMG-20190628-WA0013.jpg"  alt="IMG-20190628-WA0013"  border="0"  width="200"></a><a  href="https://ibb.co/ZHgT7xk"><img  src="https://i.ibb.co/3fFhQcL/IMG-20190628-WA0022.jpg"  alt="IMG-20190628-WA0022"  border="0"  width="200"></a><a  href="https://ibb.co/WK291hN"><img  src="https://i.ibb.co/bdKhn0j/IMG-20190628-WA0023.jpg"  alt="IMG-20190628-WA0023"  border="0"  width="200"></a></center>
-
-#### Videos
-[Video / Test usuario nº1](https://youtu.be/yDA6KDHWFX4)
-Observaciones:
-*  No se declaró exactamente al usuario la tarea de buscar un pokemon a través del filtro por tipo
-* Tomó el papel primero en vez de interactuar con los botones dibujados en la pantalla
-* Cuando llega a la pantalla nº2, pregunta si se puede "presionar" sobre las imágenes pokemon
-* Continuó con el resto de tareas sin inconvenientes
-* En la pantalla final no entendió el símbolo de los caramelos.<br>
-[Video / Test usuario nº2](https://youtu.be/qOTkf90T7yg)
-Observaciones:
-* El primer acto fue interactuar y tomar el papael donde estaba dibujada la pantalla
-* Después logró interactuar rápidamente con las secciones designadas para botones
-* Se le preguntó si tuvo inconveniente al usar la app, y no tuvo mayor problema.<br>
-[Video / Test usuario nº3](https://www.youtube.com/watch?v=PfNKrHZMpvw)
-Observaciones:
-* No interactúa en primera instancia con los botones, y toma el papel para dejarlo boca abajo
-* Cuando empieza a interactuar, corregimos la forma de mostrarle las pantallas
-* Logró visualizar los botones y secciones designadas lo cual hizo que le entregaramos las pantallas siguientes
-* Le preguntamos qué le había costado y nos comentó que no entendía en un inicio dónde apretar los botones (botón con símbolo "X").<br>
-[Video / Test usuario nº4](https://www.youtube.com/watch?v=ZVHpMJr0QSk)
-Observaciones:
-* Se logró hacer una mejor introducción
-* Logró visualizar el botón y cerró el modal
-* Comentó que los elementos "select" se parecía a un menú desplegable
-* Logró identificar los símbolos expuestos en pantalla (información de carta pokemon)
-* Preguntó si con el botón "X" podía volver a la pantalla anterior, lo cual supuso bien
-* Al final pidió que le mostráramos todas las pantallas juntas para darnos feedback y nos comentó que funcionalmente se veía simple de usar, y preguntó si le aplicaríamos colores y otros estilos al prototipo.<br>
-[Video / Test usuario nº5](https://youtu.be/qOTkf90T7yg)
-Observaciones:
-* Se le dan las intrucciones correspondientes
-* En la primera pantalla se pregunta por qué hay una "X"
-* Logra interactuar con las pantallas hasta que llega en la situación que debe interactuar con el selector "filtro", pero aprieta el selector "ordenar", aún así se le siguen mostrando las pantallas siguientes (situación que no debió ocurrir).
-
-##### Conclusiones primer grupo de testeo
-De acuerdo a lo experimentado en el testeo, podemos considerar las siguientes mejoras:
-1. Desarrollar una mejor pauta de introducción al usuario
-2. Generar con el usuario la confianza suficiente para que nos pueda decir todo lo que piensa o siente al probar el prototipo
-3. Buscar un target más acorde a lo definido según las encuestas
-4. Desarrollar el prototipo de alta fidelidad para visualizar los estilos y principios de Visual Design
-5. Definir más específicamente la tarea que el usuario debería lograr
-
-#### Prototipo de baja fidelidad final:
-<center><a  href="https://ibb.co/TmYYYwg"><img  src="https://i.ibb.co/nz666wL/prototipo-baja-fidelidad-final.jpg"  alt="prototipo-baja-fidelidad-final"  border="0"></a></center>
-
-Luego de simplificar nuestro protipado de baja fidelidad, debemos formular la guía de tareas que el usuario puede realizar, en base a preguntas que haremos tanto a los usuarios como a las tareas designadas.
-
-
+  
 
 ##### Guía de usuario (tareas):
 
 Lo que esperamos de este prototipo es que el usuario pueda completar la tarea de buscar al pokemon Poliwa a través del filtrado por tipo agua (basándonos en la historia de usuario nº1). Para esto se debe definir las siguientes "mini tareas":
 
-
->>>>>>> 13bdbdf37cd3ae8ee4c679c65db6e2d037023196
+  
 
 a. Visualizar modal de bienvenida a la página
 
@@ -288,17 +215,14 @@ A continuación se presentan una serie de comentarios que se expresarán al usua
 * "...¿Cuál otra manera pensaste para completar la tarea?"
 
 
-=======
-
+  
 
 #### Prototipo de alta fidelidad
 
 Para empezar a desarrollar el prototipo de alta fidelidad, obtuvimos dos paletas de colores en base a ciertas pantallas de la app Pokemon GO, con el objetivo de que el usuario al ocupar KANTODEX, estuviera visualmente familiarizado con los colores y formas de los botones de interacción.
 
 <center><img src="https://i.ibb.co/YfK1R2p/paleta-colores-btns.png" height=250px><img src="https://i.ibb.co/xhw3ZwZ/paleta-colores-pokedex-y-btn.png" height=250px></center>
-
-=======
-
+  
 
 #### Figma
 Figma es una aplicación para hacer UI. Su principal objetivo es que seamos capaces de desarrollar interfaces de usuario dentro del navegador, sin tener que acudir a software nativo.
@@ -309,9 +233,7 @@ Aquí puedes ver el link de nuestro desarrollo en [Figma](https://www.figma.com/
 
 <center><a  href="https://ibb.co/QQ9gXKm"><img  src="https://i.ibb.co/zxsMN4f/FIGMA.png"  alt="FIGMA"  border="0"></a></center>
 
-
-=======
-
+  
 
 #### Zeplin
 
@@ -321,9 +243,7 @@ Es posible importar diseños de otras plataformas, así como exportar componente
 
 Aquí puedes ver el link de nuestro desarrollo en [Zeplin](zpl://project?pid=5d282271819fbe63b415940c)
 
-
-=======
-
+  
 
 #### Testeos de usabilidad (Parque Forestal)
 <center><a href="https://ibb.co/DpGhsG6"><img src="https://i.ibb.co/VmHRrHh/pokemon-go2.jpg" alt="pokemon-go2" border="0"></a></center>
@@ -334,15 +254,9 @@ Aquí puedes ver el link de nuestro desarrollo en [Zeplin](zpl://project?pid=5d2
 
   El segundo grupo de testeos se desarrolló en el Parque Forestal (Santiago de Chile), donde van frecuentemente usuarios de Pokemon GO.
 
-
- ##### Videos (Parque Forestal)
+ ##### Videos (Parque Forestal) 
  A continuación se enlazan los siguientes videos y observaciones generales.:
-=======
-
-
- ##### Videos (Parque Forestal)
- A continuación se enlazan los siguientes videos y observaciones generales.:
-
+ 
 [Test UX exterior/Usuario 1](https://youtu.be/bzQZWALaBW8)
 
 [Test UX exterior/Usuario 2](https://youtu.be/eVHTYBQVRBA)
@@ -379,66 +293,23 @@ Aquí presentamos algunas configuraciones a través de @media queries, para adap
 
 <a  href="https://ibb.co/QNVsL4w"><img  src="https://i.ibb.co/Z8ry50D/Mobile.png"  alt="Mobile"  border="0"></a><br  /><a  target='_blank'  href='https://es.imgbb.com/'></a><br></center>
 
-
+  
 ##### Evaluación Heurística
 ¿Qué es una Evaluación Heurística?
 Una Evaluación Heurística (EH) es un método de inspección de la usabilidad sin usuarios. Este, consiste en examinar la calidad de uso de una interfaz por parte de varios evaluadores expertos, a partir del cumplimiento de unos principios reconocidos de usabilidad: los heurísticos.
 Al igual que los Walkthroughs, el principal objetivo de la EH es medir la calidad de la interfaz de cualquier aplicativo en relación a su facilidad para ser aprendido y usado por primera vez. Sin embargo, mientras los primeros se centran en la consecución de tareas, las EH inspeccionan problemas potenciales . Ya que el evaluador se pone en la piel del usuario real del sistema, intentando predecir los errores que podrá encontrarse.
 
-Aquí puedes ver el link de nuestro desarrollo de nuestra [Evaluación heurística](https://docs.google.com/spreadsheets/d1H3MyRaX7Uj-Y50oFSDAQkWp1tHVjQmwLMGGy8Vr8bPk/edit?usp=sharing)
+Aquí puedes ver el link de nuestro desarrollo de nuestra [Evaluación heurística](https://docs.google.com/spreadsheets/d/1H3MyRaX7Uj-Y50oFSDAQkWp1tHVjQmwLMGGy8Vr8bPk/edit?usp=sharing)
 
-
-
-#### Conclusiones proyecto KANTODEX
-
-A nivel proyectivo, el trabajo realizado puede seguir en proceso de mejora, ya que la retroalimentación por parte de los usuarios nos genera la guía hacia un producto mínimo víable en base a sus primeras experiencias con el producto. Esto quiere decir que el enfoque hacia el usuario es una de las ramas más importantes al desarrollar un proyecto, ya que nuestros usuarios nos permitirán generar una visión de mejora y desarrollo constante, tanto en el proyecto, como en mejoras técnicas por parte del equipo.
-
-
-
-
-=======
-
-2. Un usuario no pudo reconocer el pokemon que se le pidió seleccionar.
-
-3. Los selectores se veían "planos" al no colorear, en algunos casos no pudieron seguir con la tarea.
-
-4. Reconocían las referencias formales que se implementaron en el prototipo.
-
-5. Hubo casos en donde el usuario tomó el papel donde estaba dibujado el prototipo en vez de apretar el botón para pasar a la siguiente pantalla.
-
-6. Algunos usuarios pedían mucha más información relevante, la cual no estaba ingresada en la DATA (ataques más poderosos, nivel IV, entre otros).
-
-7. Es muy relevante desarrollar una pauta de conversación más técnica e introductoria cuando nos acercábamos a los usuarios para pedirles un testeo, para que no empezaran a testear con confusión o incertidumbre.
-
-
-#### Responsive
-
-Aquí presentamos algunas configuraciones a través de @media queries, para adaptar la app a 3 principales dimensiones (Laptop / Tablet / Mobile)
-
-<center><a  href="https://imgbb.com/"><img  src="https://i.ibb.co/7jnW67Y/Tablet.png"  alt="Tablet"  border="0"></a>
-
-<a  href="https://imgbb.com/"><img  src="https://i.ibb.co/w6P79jp/Laptop.png"  alt="Laptop"  border="0"></a>
-
-<a  href="https://ibb.co/QNVsL4w"><img  src="https://i.ibb.co/Z8ry50D/Mobile.png"  alt="Mobile"  border="0"></a><br  /><a  target='_blank'  href='https://es.imgbb.com/'></a><br></center>
-
-
-##### Evaluación Heurística
-¿Qué es una Evaluación Heurística?
-Una Evaluación Heurística (EH) es un método de inspección de la usabilidad sin usuarios. Este, consiste en examinar la calidad de uso de una interfaz por parte de varios evaluadores expertos, a partir del cumplimiento de unos principios reconocidos de usabilidad: los heurísticos.
-Al igual que los Walkthroughs, el principal objetivo de la EH es medir la calidad de la interfaz de cualquier aplicativo en relación a su facilidad para ser aprendido y usado por primera vez. Sin embargo, mientras los primeros se centran en la consecución de tareas, las EH inspeccionan problemas potenciales . Ya que el evaluador se pone en la piel del usuario real del sistema, intentando predecir los errores que podrá encontrarse.
-
-Aquí puedes ver el link de nuestro desarrollo de nuestra [Evaluación heurística](https://docs.google.com/spreadsheets/d1H3MyRaX7Uj-Y50oFSDAQkWp1tHVjQmwLMGGy8Vr8bPk/edit?usp=sharing)
-
-
+  
 
 #### Conclusiones proyecto KANTODEX
 
 A nivel proyectivo, el trabajo realizado puede seguir en proceso de mejora, ya que la retroalimentación por parte de los usuarios nos genera la guía hacia un producto mínimo víable en base a sus primeras experiencias con el producto. Esto quiere decir que el enfoque hacia el usuario es una de las ramas más importantes al desarrollar un proyecto, ya que nuestros usuarios nos permitirán generar una visión de mejora y desarrollo constante, tanto en el proyecto, como en mejoras técnicas por parte del equipo.
 
-
-
-
->>>>>>> 13bdbdf37cd3ae8ee4c679c65db6e2d037023196
+  
+  
+  
 
 #### *Herramientas utilizadas*
 *  [Trello (Data Lovers)](https://trello.com/b/bRhApRB2/proyecto-data-lovers)
@@ -451,7 +322,7 @@ A nivel proyectivo, el trabajo realizado puede seguir en proceso de mejora, ya q
 *  [CSS Lint](http://csslint.net/)
 *  [Validator HTML](https://validator.w3.org/)
 
-## *Checklist*
+#### *Checklist*
 *  [x] Usa VanillaJS.
 
 *  [x] No hace uso de `this`.
@@ -487,3 +358,8 @@ usabilidad en el `README.md`.
 * [x] UI: Permite ordenar data por uno o más campos (asc y desc).
 
 * [x] UI: Permite filtrar data en base a una condición.
+
+#### *EXTRA (+ hacker edition JSON)*
+Después de la entrega de proyecto, nos dieron tres días para poder mejorar y agregar más elementos a nuestro proyecto. Durante estos días se realizó lo siguiente:
+
+1. Se usó fetch en una data de Pokemon distinta, la cual tiene información adicional que mostramos en un efecto Flipcard de las cartas Pokemon
