@@ -46,7 +46,7 @@ function createDivs(array)
      </div>
      <div class="flip-card-back">
      <h3>${japaneseName}</h3>
-     <p>${(JSON.stringify(base)).replace(/\"|\{|\}/g, "")}</p>
+     <p>${(JSON.stringify(base)).replace(/"|\{|\}/g, "")}</p>
        <img src=${array[i].img} alt="poke-card">
      </div>
    </div>`;
